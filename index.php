@@ -16,7 +16,7 @@
 <?php
 error_reporting(E_ALL); // type 0 inside () to disable it
 ini_set('display_errors', 'on'); // change off to disable it
-mb_internal_encoding('UTF-8');
+//mb_internal_encoding('UTF-8');
 echo "<br> <h2>Работа  с переменными</h2>";
 
 $num = 10;
@@ -138,7 +138,7 @@ echo "<br>";
 var_dump($lang == 'ru' ? true : false);
 echo "<br>";
 echo "<br> <h2>ForEach</h2>";
-
+echo "<br>";
 
 ?>
 </body>
